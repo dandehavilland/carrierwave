@@ -85,7 +85,7 @@ elsif defined?(Rails)
 
 elsif defined?(Sinatra)
 
-  CarrierWave.root = Sinatra::Application.public
+  CarrierWave.root = Sinatra::Application.public_folder
 
 end
 
